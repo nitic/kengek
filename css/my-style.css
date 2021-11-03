@@ -1,7 +1,10 @@
 .thai h3{
     font-family: 'Pattaya', sans-serif;
   }
-  
+  .qbootstrap-cover {
+    background-image: url('../images/cover_bg_3.jpg');
+  }
+
   /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
   .qbootstrap-cover {
@@ -12,6 +15,7 @@
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   .qbootstrap-cover {
+    background-image: url('../images/cover_bg_31.jpg');
     background-size: 598px;
   }
   .qbootstrap-overlay{
@@ -27,4 +31,7 @@
   .animate-box h2{
     font-size: 11pt;
   }
+  #qbootstrap-couple h3 {
+    font-size: 1.75rem;
+}
 }
