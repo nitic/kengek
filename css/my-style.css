@@ -2,3 +2,29 @@
     font-family: 'Pattaya', sans-serif;
   }
   
+  /* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .qbootstrap-cover {
+    background-size: cover;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .qbootstrap-cover {
+    background-size: 598px;
+  }
+  .qbootstrap-overlay{
+    height: 455px;
+  }
+  .display-t{
+    height: 0px;
+  }
+  .logo {
+    width: 60%;
+    margin-top: -150px;
+  }
+  .animate-box h2{
+    font-size: 11pt;
+  }
+}
